@@ -103,8 +103,3 @@ import { createMachine } from "frontend-state-machine";
 import { useStateMachine } from "frontend-state-machine/react";
 ```
 
-### Suggested npm description
-
-Tiny, dependency-free TypeScript state machine. Simple API, first class async (invoke), and an optional React hook, perfect for forms and API flows.
-
-
