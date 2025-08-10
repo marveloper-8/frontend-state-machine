@@ -1,6 +1,6 @@
 {
   "name": "frontend-state-machine",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "private": false,
   "type": "module",
   "description": "Tiny, dependency-free TypeScript state machine. Simple API, first class async (invoke), and an optional React hook, perfect for forms and API flows.",
