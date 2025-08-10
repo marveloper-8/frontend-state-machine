@@ -1,0 +1,45 @@
+{
+  "name": "frontend-state-machine",
+  "version": "1.0.1",
+  "private": false,
+  "type": "module",
+  "description": "Tiny, dependency-free TypeScript state machine. Simple API, first class async (invoke), and an optional React hook, perfect for forms and API flows.",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./react": {
+      "types": "./dist/react/useStateMachine.d.ts",
+      "import": "./dist/react/useStateMachine.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "tsc -w -p tsconfig.json",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "state-machine",
+    "frontend",
+    "typescript",
+    "async",
+    "forms"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^18.3.23",
+    "typescript": "^5.5.4"
+  },
+  "peerDependencies": {
+    "react": ">=18.0.0"
+  }
+}
