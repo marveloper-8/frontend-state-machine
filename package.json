@@ -35,6 +35,14 @@
   ],
   "author": "",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marveloper-8/frontend-state-machine.git"
+  },
+  "homepage": "https://github.com/marveloper-8/frontend-state-machine#readme",
+  "bugs": {
+    "url": "https://github.com/marveloper-8/frontend-state-machine/issues"
+  },
   "devDependencies": {
     "@types/react": "^18.3.23",
     "typescript": "^5.5.4"
